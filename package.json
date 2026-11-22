@@ -1,0 +1,13 @@
+{
+  "name": "@gcs-ssc/gcs-file-authoring",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./server": "./server/openai.ts"
+  },
+  "dependencies": {
+    "@gcs-ssc/extensions": "^0.4.0",
+    "zod": "^4.3.6"
+  }
+}
